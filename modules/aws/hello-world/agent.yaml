@@ -5,4 +5,5 @@ metadata:
   nested_input: "{{ .input.nest.egg }}"
   nested_array: "{{ .input.array.0 }}"
   prefix: "{{ .config.prefix }}"
+  out: "{{ .sout.hello_world }}"
 module_types: [hello-world]
