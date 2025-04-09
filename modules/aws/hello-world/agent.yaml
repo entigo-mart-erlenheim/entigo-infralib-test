@@ -6,4 +6,5 @@ metadata:
   nested_array: "{{ .input.array.0 }}"
   prefix: "{{ .config.prefix }}"
   out: "{{ .sout.hello_world }}"
+  ui_url: "https://{{ .input.nest.egg }}"
 module_types: [hello-world]
